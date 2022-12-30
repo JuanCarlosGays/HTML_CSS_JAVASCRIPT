@@ -13,8 +13,25 @@ header{
     background-color: var(--color1);
     border-radius: 5px;
     width: 100%;
-    flex: auto;
-    justify-content: flex-end;
+       
+}
+
+#listado{
+    
+    display: flex;
+    justify-content:right;
+    font-family:var(--fuente1);
+   
+    
+    gap: 10px;
+
+}
+
+ul{
+    border-radius: 10px;
+    background-color:var(--color2);
+    padding: 10px;
+    cursor:pointer;
 }
 
 section{
