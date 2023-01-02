@@ -59,6 +59,7 @@ section{
 .videoh{
     display: grid;
     place-items:center;
+    padding: 20px;
     
     
     }
@@ -172,4 +173,5 @@ footer{
 			100% 100%,
 			0% 100%
 		);
-	}
+    }
+}
