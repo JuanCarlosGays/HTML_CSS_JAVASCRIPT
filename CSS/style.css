@@ -60,9 +60,10 @@ section{
     display: grid;
     place-items:center;
     
+    
     }
 
-h1{
+h1,h2{
 font-family:var(--fuente1);
 color: var(--color2);
 border: 100px;
@@ -86,4 +87,38 @@ body{
     background-size: cover;
     background-position:bottom;
     
+}
+
+#introduccion{
+    align-items: center;
+    gap: 10px;
+    
+}
+
+button{
+    display:flex;
+    margin: 10px;
+} 
+
+.tarjeta{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--color2);
+    width:auto;
+    padding:10px;
+    border: 2px solid var(--color4);
+    background-color: var(--color3);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-self:center;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: var(--color5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:var(--color2);
+    padding: 20px;
+    display: flex;
+    justify-content: right;
 }
