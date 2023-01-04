@@ -177,3 +177,40 @@ footer{
 		);
     }
 }
+
+.animacion{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+
+@keyframes movicanilla{
+    0%{transform: translatex(-30px);}
+    90%{transform: translatex(20px);}
+    100%{transform: translatex(20px);}
+}
+
+@keyframes movigota{
+    0%{transform: translatey(10px);}
+    
+    100%{transform: translatey(800px);}
+}
+
+.canilla{
+    display:flex;
+    justify-items:flex-start;
+    scale: 15%;
+    animation-name: movicanilla;
+    animation-duration:2s;
+}   
+
+.gota{
+    scale:4%;
+    animation-iteration-count: infinite;
+    display: flex;
+    animation-delay:2s;
+    animation-name: movigota;
+    animation-duration:2s;
+    
+}
