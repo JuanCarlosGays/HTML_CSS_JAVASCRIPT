@@ -207,6 +207,7 @@ footer{
 
 .gota{
     scale:4%;
+    animation-iteration-count: infinite;
     display: flex;
     animation-delay:2s;
     animation-name: movigota;
