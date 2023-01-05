@@ -105,7 +105,8 @@ body{
 button{
     display:flex;
     margin: 10px;
-} 
+    box-shadow: var(--color5) 3px 3px ;
+    } 
 
 .tarjeta{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
