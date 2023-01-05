@@ -9,19 +9,27 @@
 
 
 header{
+    display:flex;
+    justify-content: space-between;
     border: 2px solid var(--color4);
     background-color: var(--color1);
     border-radius: 5px;
-    width: auto;
-      
+          
 }
 
-
+.animacion{
+    
+    transform: scale(13%);
+    margin-top:-50px;
+    height: 140px;
+    width: 5px;
+            
+}
 
 #listado{
     display: flex;
-    justify-content:flex-end;
-    align-items: stretch;
+    justify-content:space-between;
+    align-items:center;
     font-family:var(--fuente1);
     gap: 10px;
 
@@ -178,39 +186,32 @@ footer{
     }
 }
 
-.animacion{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
-}
 
 
 @keyframes movicanilla{
-    0%{transform: translatex(-30px);}
-    90%{transform: translatex(20px);}
-    100%{transform: translatex(20px);}
+    0%{opacity:0};
+    100%{transform: translatex(0px);}
 }
 
 @keyframes movigota{
-    0%{transform: translatey(10px);}
-    
-    100%{transform: translatey(800px);}
+    0%{opacity:0}
+    15%{opacity:0}
+    100%{transform: translatey(1200px)};
 }
 
 .canilla{
-    display:flex;
-    justify-items:flex-start;
-    scale: 15%;
     animation-name: movicanilla;
-    animation-duration:2s;
-}   
+    animation-fill-mode: forwards;
+    animation-duration: 4s;
+     
+    }   
 
 .gota{
-    scale:4%;
-    animation-iteration-count: infinite;
-    display: flex;
-    animation-delay:2s;
+    scale: 20%;
+    position: absolute;
+    top: 20px;
+    left: 170px;
     animation-name: movigota;
+    animation-iteration-count: infinite;
     animation-duration:2s;
-    
 }

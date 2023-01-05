@@ -1,7 +1,10 @@
 .animacion{
     display: block;
     margin:auto;
-    scale: 15%;
+    scale: 8%;
+    padding: 110px;
+    border-radius: 100px;
+    background-color: black;
     
 }
 
@@ -25,7 +28,7 @@
 .gota{
     scale: 20%;
     position: absolute;
-    left: 24%;
+    left: 39%;
     animation-name: movigota;
     animation-iteration-count: infinite;
     animation-duration:2s;
