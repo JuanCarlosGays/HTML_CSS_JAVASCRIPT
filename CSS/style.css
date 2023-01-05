@@ -38,7 +38,7 @@ header{
 
 ul{
     border-radius: 10px;
-    box-shadow: rgb(14, 99, 14) 3px 3px ;
+    box-shadow: var(--color5) 3px 3px ;
     background-color:var(--color2);
     padding: 10px;
     cursor:pointer;
@@ -80,7 +80,7 @@ h1,h2{
 font-family:var(--fuente1);
 color: var(--color2);
 border: 100px;
-text-shadow: rgb(43, 129, 104) 3px 3px;
+text-shadow: var(--color5) 3px 3px;
 color: var(--color2);
 }
 
