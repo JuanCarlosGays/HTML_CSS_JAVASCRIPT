@@ -2,7 +2,7 @@ let video2=document.querySelector("#historiav");
 
 const iniciarRep=(e)=>{
     video2.play()
-    document.querySelector("#duracion").innerText="duración: "+video2.duration.toFixed(2)/100+"min" ;
+    document.querySelector("#duracion").innerText="duración: "+video2.duration.toFixed(2)/60+"min" ;
 }
 
 const pausarRep=()=>{
