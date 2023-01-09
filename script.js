@@ -1,3 +1,15 @@
+let video2=document.querySelector("#historiav");
+
+const iniciarRep=(e)=>{
+    video2.play()
+    document.querySelector("#duracion").innerText="duración: "+video2.duration.toFixed(2)/100+"min" ;
+}
+
+const pausarRep=()=>{
+    video2.pause()
+}
+
+
 const irAlOrigen=document.getElementsByClassName('animacion')[0];
 
 

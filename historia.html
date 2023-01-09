@@ -55,7 +55,15 @@
         </section>
         <div class="videoh">
             <h1>Un breve paseo por el edificio</h1>
-            <video id="historiav" width=600px src="./imagenes/Palacio de Aguas Corrientes - Buenos Aires, Argentina (HD).mp4" poster="./imagenes/IMG_9107-2-1024x683.jpg" controls></video>
+            <video id="historiav" width=600px src="./imagenes/Palacio de Aguas Corrientes - Buenos Aires, Argentina (HD).mp4" poster="./imagenes/IMG_9107-2-1024x683.jpg" type="video/mp4"></video>
+            <section id="controlesVideo">
+                <section id="botonesVideo">
+                    <button onclick="iniciarRep(event)">&#9654;</button>
+                    <Button onclick="pausarRep()">&#9208;</Button>
+                </section>
+                <h2 id="duracion"></h2>
+            </section>
+            
         </div>
 </body>
 <footer class="content">
