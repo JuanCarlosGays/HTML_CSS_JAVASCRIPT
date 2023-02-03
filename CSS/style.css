@@ -248,3 +248,15 @@ footer{
     animation-iteration-count: infinite;
     animation-duration:2s;
 }
+
+#juego{
+    width:auto;
+    border: 2px solid var(--color4);
+    background-color: rgba(137, 147, 167, 0.9);
+    border-radius: 5px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
