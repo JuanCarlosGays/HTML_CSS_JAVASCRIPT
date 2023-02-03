@@ -255,8 +255,9 @@ footer{
     background-color: rgba(137, 147, 167, 0.9);
     border-radius: 5px;
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template: "a b c" 40px
+                    "d e f" 40px;
+    
     gap: 20px;
     padding: 20px;
 }
