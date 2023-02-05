@@ -29,7 +29,6 @@ header{
     display: flex;
     justify-content:space-between;
     align-items:center;
-    font-family:var(--fuente1);
     gap: 10px;
 }
 
@@ -39,6 +38,7 @@ ul{
 }
 
 li,a{
+    font-family:var(--fuente1);
     cursor:pointer;
     text-decoration: none;
     border-radius: 10px;
@@ -85,6 +85,9 @@ section{
     height: 340px; 
     justify-self: center;
 }
+
+
+
 
 .videoh{
     display: grid;
@@ -136,7 +139,6 @@ body{
 #introduccion{
     align-items: center;
     gap: 10px;
-    
 }
 
 button{
@@ -249,15 +251,45 @@ footer{
     animation-duration:2s;
 }
 
-#juego{
+.destino{
+    display: flex;
+    justify-content:center;
+   
+    
+}
+#dest1,#dest2,#dest3{
+    height:400px;
+    width: 275px; 
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border: 2px solid pink;
+    background-color: rgba(137, 147, 167, 0.6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#dest1:hover{
+    background-color:rgba(137, 147, 167,0.9)
+}
+#dest2:hover{
+    background-color:rgba(137, 147, 167,0.9)
+}
+
+#dest3:hover{
+    background-color:rgba(137, 147, 167,0.9)
+}
+
+
+#imagenes{
     width:auto;
     border: 2px solid var(--color4);
     background-color: rgba(137, 147, 167, 0.9);
-    border-radius: 5px;
-    display:grid;
-    grid-template: "a b c" 40px
-                    "d e f" 40px;
-    
     gap: 20px;
     padding: 20px;
+    display: flex;
+    justify-content:center;
+}
+
+#fotoj1,#fotoj2,#fotoj3{
+    height:400px;
+    width: 275px; 
 }
