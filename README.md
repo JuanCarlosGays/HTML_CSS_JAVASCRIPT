@@ -1,7 +1,6 @@
 # HTML_CSS_JAVASCRIPT
 Esta es una pagina web que explica la historia del Palacio de las Aguas Corrientes en Aysa. Como tal, que fuera armado como rompecabezas, contendrá una página con un rompecabezas del Palacio.
 
-Profe: actualmente me esta costando alinear un logo en la punta izquierda (donde va la PC en tu caso) con los botones de arriba; voy a armar una canillita con agua como animación. Con respecto a lo que esta en el footer, la animación la saqué de una pagina web y la implementé ahi. ACTUALIZACION: ya me salio!!
+Profe: pude hacer el drag and drop de acuerdo a lo que vimos en clase, esta en el darg&dropbackup. Se me volvio complicado cuando tuve que hacerlo con 3 figuras con lo que tuve que tomar base de tu proyecto.
 
-
-Tampoco me salen los titulos en 3d (con el emboss triple de fondo)
+finalmente funciono...
